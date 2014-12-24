@@ -4,9 +4,9 @@ require_once 'PHPMailerAutoload.php';
 require_once 'MimeMailParser.class.php';
 require_once 'rb.php';
 
-define(DB_DNS,      "mysql:host=localhost;dbname=database");
-define(DB_UNAME,    "username");
-define(DB_PASS,     "password");
+define(DB_DNS, "mysql:host=localhost;dbname=chintan9_tmail");
+define(DB_UNAME, "chintan9_tmall");
+define(DB_PASS, "game-121");
 
 R::setup(DB_DNS,DB_UNAME,DB_PASS);
 
