@@ -1,9 +1,9 @@
 <?php
 
-define(DOMAIN,      "tempmai.ir");
-define(DB_DNS,      "mysql:host=localhost;dbname=database");
-define(DB_UNAME,    "username");
-define(DB_PASS,     "password");
+define(DOMAIN,      "kitos.heliohost.org");
+define(DB_DNS,      "mysql:host=localhost;dbname=chintan9_tmail");
+define(DB_UNAME,    "chintan9_tmall");
+define(DB_PASS,     "game-121");
 define(ENV,         "production");
 define(PRODUCTION,  "production");
 
