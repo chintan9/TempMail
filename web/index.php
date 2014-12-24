@@ -27,7 +27,7 @@ $app->post('/get',function() use($app){
         echo json_encode(array(
             'success'   =>  FALSE,
             'error'     =>  'INVALID'
-        ));        
+        ));         
     } else if (R::count('email','ip=:ip AND time>=:time',array(':ip'=>$ip,':time'=>time() + 119*60)) >= 20){
         echo json_encode(array(
             'success'   =>  FALSE,
